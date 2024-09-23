@@ -2,8 +2,12 @@
 This repository contains code related to data processing and downstream analysis associated with the study "Dissecting the pan-cancer single-cell tumor immune microenvironment during immune checkpoint therapy" at Nature Genetics.
 
 # Data Availability 
-## Processed & filtered scRNA-Seq data and CITE data
+## Processed & filtered scRNA-Seq data
 All processed scRNA-seq data are available for in-browser exploration and download through the Data Access official portal https://lambrechtslab.sites.vib.be/en/dataaccess 
+
+## Shiny Apps
+We created interactive and publicly available Shiny Apps designed to provide the research community with an intuitive way of visualizing, exploring, and downloading our data, while using the annotation from our pan-cancer dataset (temporarely at https://marine-lab.shinyapps.io/PanCancer-Lodi/). 
+Besides being able to examine expression of individual genes or customized gene signatures in each cell type across cancer types, these apps allow us to rank individual tumors based on a gene signature in any given cell type and correlate subcluster abundance with this rank.
 
 # Contacts
 All other relevant data and analysis are available from the authors upon request. For further enquires, please either raise an issue via GitHub or email Bram Boeckx (bram.boeckx@kuleuven.be), Diether Lambrechts (diether.lambrechts@kuleuven.be) or Francesca Lodi (francesca.lodi@kuleuven.be). 
